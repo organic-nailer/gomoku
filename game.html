@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="index.js"></script>
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>五目並べ</h1>
+        <div class="horizontal-div">
+        <table id="gameTable">
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+            <tr>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+                <td>o</td>
+            </tr>
+        </table>
+        <div class="sideMenu">
+            <button onclick="resetTable();">RESTART</button>
+            <p id="playerView">[RESTART]で開始</p>
+            <h2>遊び方</h2>
+            <ol>
+                <li>[RESTART]を押します</li>
+                <li>白黒を交互に打ちます</li>
+                <li>先に5つ縦横斜めのどこかに連続して並べたら勝利です</li>
+            </ol>
+        </div>
+        </div>
+    </body>
+</html>
